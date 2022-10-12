@@ -1,16 +1,46 @@
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
 }
-.card {
-  width: 200px;
-  height: 200px;
-  background-color: gray;
-  justify-content: center;
-  padding: 20px 20px white;
+.shoe {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
 }
 
-.shoe {
-  width: 100px;
-  height: 100px;
+.heart {
+  width: 20px;
+  height: 20px;
+}
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-body {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  width: 160px;
+  height: 10px;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: column;
 }
